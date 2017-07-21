@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'helveticaneuecyrlight';
+	src: url('/fonts/helveticaneuecyr-light-webfont.woff') format('woff'),
+	url('/fonts/helveticaneuecyr-light-webfont.svg#helveticaneuecyrlight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'helveticaneuecyrmedium';
+	src: url('/fonts/helveticaneuecyr-medium-webfont.woff') format('woff'),
+	url('/fonts/helveticaneuecyr-medium-webfont.svg#helveticaneuecyrmedium') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'helveticaneuecyrroman';
+	src: url('/fonts/helveticaneuecyr-roman-webfont.woff') format('woff'),
+	url('/fonts/helveticaneuecyr-roman-webfont.svg#helveticaneuecyrroman') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@mixin helvetica($style : jenya) {
+	@if $style == jenya {
+		font-family: 'helveticaneuecyrroman';
+	}
+
+	@if $style == medium {
+		font-family: 'helveticaneuecyrmedium';
+	}
+
+	@if $style == light {
+		font-family: 'helveticaneuecyrlight';
+	}
+}
