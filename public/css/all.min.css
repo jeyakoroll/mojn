@@ -224,7 +224,7 @@ a {
 }
 
 .search__submit {
-  background: url("../../../public/img/icons/zoom.png") 0 0 no-repeat;
+  background: url("../img/icons/zoom.png") 0 0 no-repeat;
   width: 18px;
   height: 18px;
   display: block;
@@ -612,7 +612,7 @@ a {
 .pagination__control {
   width: 11px;
   height: 18px;
-  background-image: url("../../../public/img/icons/sprite.png");
+  background-image: url("../img/icons/sprite.png");
   background-repeat: no-repeat;
 }
 
