@@ -23,16 +23,3 @@
 	font-style: normal;
 }
 
-@mixin helvetica($style : jenya) {
-	@if $style == jenya {
-		font-family: 'helveticaneuecyrjenya';
-	}
-
-	@if $style == medium {
-		font-family: 'helveticaneuecyrmedium';
-	}
-
-	@if $style == light {
-		font-family: 'helveticaneuecyrlight';
-	}
-}
